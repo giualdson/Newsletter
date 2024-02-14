@@ -1,0 +1,366 @@
+/* RESET */
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+:root {
+    --cor-1: #8B8B8B;
+    --cor-2: #EDEDED;
+    --cor-3: #434343;
+    --cor-4: #FBFF22;
+    --cor-5: #F8F8F8;
+    --cor-6: #F5F5F5;
+    --cor-7: #E1E1E1;
+}
+
+
+.espacamentoLateralPadrao {
+    margin: 0px 43px 0px 43px;
+}
+
+/* CABEÇALHO INICIAL DA PAGINA / JORNAL */
+
+.dataDaPublicacaoSuperior {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 10px;
+    color: var(--cor-1);
+    border-bottom: 1px solid var(--cor-2);
+    padding-bottom: 5px;
+}
+
+.tituloSuperiorDoJornal {
+    display: flex;
+    justify-content: center;
+    font-size: 54px;
+    letter-spacing: -2.16px;
+    margin-bottom: 20px;
+}
+
+.navegacaoDeTemasSuperior ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid var(--cor-2);
+    border-top: 1px solid var(--cor-2);
+    padding: 9px 0px;
+}
+
+.navegacaoDeTemasSuperior p {
+    padding: 0px 5px;
+}
+
+.navegacaoDeTemasSuperior p:hover {
+    background-color: var(--cor-4);
+}
+
+/* PRIMEIRA PARTE DO JORNAL COM AS NOTICIAS */
+
+.primeiraSessaoSuperior {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--cor-2);
+}
+
+.primeiraSessaoSuperior img {
+    width: 560px;
+    height: 260px;
+    object-fit: cover;
+    background-position: top;
+}
+
+.primeiraSessaoSuperior h2 {
+    background-color: var(--cor-5);
+    position: absolute;
+    top: 210px;
+    left: 10px;
+    padding: 4px 12px;
+    max-width: 540px;
+}
+
+.primeiraSessaoSuperior p {
+    margin-top: 10px;
+    max-width: 480px;
+}
+
+.primeiraSessaoSuperiorNavegacao ul {
+    max-width: 220px;
+    margin-left: 10px;
+}
+
+.primeiraSessaoSuperiorNavegacao h3 {
+    color: var(--cor-3);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    background-color: var(--cor-4);
+    display: inline-block;
+    padding: 4px 6px;
+    font-weight: 500;
+}
+
+.primeiraSessaoSuperiorNavegacao p {
+    border-bottom: 1px solid var(--cor-2);
+    padding: 6px 0px;
+    margin: 0px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.primeiraSessaoSuperiorNavegacao p:hover {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.primeiraSessaoSuperiorFastNews {
+    width: 250px;
+    background-color: var(--cor-5);
+    margin-left: 20px;
+    position: relative;
+}
+
+.primeiraSessaoSuperiorFastNews h3 {
+    color: var(--cor-3);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    background-color: var(--cor-4);
+    display: inline-block;
+    padding: 4px 6px;
+    font-weight: 500;
+}
+
+.primeiraSessaoSuperiorFastNews h4 {
+    padding: 15px 15px 0px 15px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: var(--cor-3);
+}
+
+.primeiraSessaoSuperiorFastNews p {
+    padding: 0px 15px;
+    font-size: 12px;
+    color: var(--cor-3);
+    line-height: 17px;
+}
+
+.primeiraSessaoSuperiorFastNews span {
+    color: hsla(0, 0%, 26%, 0.507);
+}
+
+.primeiraSessaoSuperiorFastNews a {
+    color: var(--cor-3);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+    background-color: var(--cor-4);
+    display: inline-block;
+    padding: 4px 6px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+/* SEGUNDA SESSÃO MEIO DA PÁGINA */
+
+.segundaSessaoMeio h3 {
+    background-color: var(--cor-6);
+    font-size: 12px;
+    color: var(--cor-3);
+    margin-top: 15px;
+    padding: 5px 8px 5px 0px;
+}
+
+.segundaSessaoMeio .span1 {
+    background-color: var(--cor-7);
+    padding: 5px 9px;
+}
+
+.segundaSessaoMeio .span2 {
+    margin: 0px 10px;
+}
+
+.segundaSessaoMeioMateriasSuperior {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--cor-2);
+}
+
+.segundaSessaoMeioMateriasSuperior img {
+    width: 240px;
+    height: 130px;
+}
+
+.segundaSessaoMeioMateriasSuperior div {
+    position: relative;
+}
+
+.segundaSessaoMeioMateriasSuperior div:hover {
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+.segundaSessaoMeioMateriasSuperior h4 {
+    position: absolute;
+    font-size: 12px;
+    max-width: 200px;
+    padding: 5px;
+    background-color: var(--cor-5);
+    bottom: -5px;
+    left: 5px;
+}
+
+.segundaSessaoMeioMateriasInferiores {
+    display: flex;
+    max-height: 550px;
+    overflow: hidden;
+}
+
+.segundaSessaoMeioMateriasInferiores .materiasEsquerda {
+    max-width: 180px;
+    padding: 0px 15px 20px 0px;
+    border-right: solid 1px var(--cor-7);
+}
+
+.segundaSessaoMeioMateriasInferiores .materiasEsquerda h3 {
+    color: var(--cor-3);
+    display: inline-block;
+    padding: 4px 6px;
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.segundaSessaoMeioMateriasInferiores .materiasEsquerda h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.segundaSessaoMeioMateriasInferiores .materiasEsquerda p {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.segundaSessaoMeioMateriasInferiores .materiasMeioEsquerdo {
+    padding: 17px 15px 0px;
+    max-width: 450px;
+    max-height: 550px;
+    border-right: solid 1px var(--cor-7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.segundaSessaoMeioMateriasInferiores .materiasMeioEsquerdo .materias {
+    padding-bottom: 10px;
+    border-bottom: solid 1px var(--cor-7);
+}
+
+.segundaSessaoMeioMateriasInferiores .materiasMeioEsquerdo .materias:hover {
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.segundaSessaoMeioMateriasInferiores .materiasMeioEsquerdo .materias:last-child {
+    border: none;
+}
+
+.segundaSessaoMeioMateriasInferiores .materiasMeioEsquerdo h4 {
+    font-size: 13px;
+    color: var(--cor-3);
+    line-height: 18px;
+    margin-bottom: 6px;
+}
+
+.segundaSessaoMeioMateriasInferiores .materiasMeioEsquerdo p {
+    font-size: 12px;
+    max-height: 85px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.segundaSessaoMeioMateriasInferiores .materiasMeioEsquerdo .materiasComMidiaLateral {
+    display: flex;
+}
+
+.segundaSessaoMeioMateriasInferiores .materiasMeioEsquerdo .materiasComMidiaLateral img {
+    width: 130px;
+    height: 90px;
+}
+
+.segundaSessaoMeioMateriasInferiores .materiasMeioDireito {
+    max-width: 240px;
+    max-height: 550px;
+    min-width: 240px;
+    padding: 0px 13px 0px 13px;
+}
+
+.segundaSessaoMeioMateriasInferiores .materiasMeioDireito h3 {
+    font-size: 12px;
+    color: var(--cor-3-1);
+    background-color: var(--cor-4);
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.segundaSessaoMeioMateriasInferiores .materiasMeioDireito ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5px;
+}
+
+.segundaSessaoMeioMateriasInferiores .materiasMeioDireito p {
+    font-size: 11px;
+    padding: 10px 0px;
+    border-bottom: solid 1px var(--cor-7);
+}
+
+.segundaSessaoMeioMateriasInferiores .materiasMeioDireito li:last-child p {
+    border: none;
+}
+
+.segundaSessaoMeioMateriasInferiores .materiasDireito {
+    max-width: 200px;
+    padding: 13px 0px 0px 13px;
+    border-left: solid 1px var(--cor-7);
+}
+
+.segundaSessaoMeioMateriasInferiores .materiasDireito h3 {
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 0px;
+    padding: 5px;
+}
+
+.segundaSessaoMeioMateriasInferiores .materiasDireito H4 {
+    font-size: 14px;
+    color: var(--cor-3);
+    margin-bottom: 10px;
+    margin-top: 13px;
+}
+
+.segundaSessaoMeioMateriasInferiores .materiasDireito P {
+    font-size: 12px;
+}
+
+/* TERCEIRA SESSÃO E ULTIMA DA PAGINA, VIDEO E OUTROS ANTES DO RODAPER */
+
