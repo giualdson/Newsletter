@@ -24,10 +24,14 @@ li {
     --cor-6: #F5F5F5;
     --cor-7: #E1E1E1;
 }
-
-
+body{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
 .espacamentoLateralPadrao {
     margin: 0px 43px 0px 43px;
+    width: 1080px;
 }
 
 /* CABEÇALHO INICIAL DA PAGINA / JORNAL */
@@ -363,4 +367,24 @@ li {
 }
 
 /* TERCEIRA SESSÃO E ULTIMA DA PAGINA, VIDEO E OUTROS ANTES DO RODAPER */
-
+.footer{
+    display: flex;
+    border-top: 1px solid var(--cor-2);
+    padding: 9px 0px;
+}
+.teste{
+    border-right: 1px solid ;
+    padding: 1px 10px 1px 10px;
+}
+h3{
+padding-left: 45%;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.Local{
+    display: flex;
+    padding-left: 100px;
+}
+.nLocal{
+    padding: 1px 10px 10px 10px;
+}
